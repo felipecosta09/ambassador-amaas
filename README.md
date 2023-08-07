@@ -3,6 +3,8 @@
 ## Introduction
 Cloud One VSAPI is a Software Development Kit (SDK) that allows you to integrate Trend Micro's malware scanning capabilities into your applications, by allowing you to scan files and determine whether they are malicious or not. The interaction with the AMaaS backend service is facilitated through an SDK that enables you to send files to the backend service. The backend service utilizes the Trend Micro Antimalware engine and the Trend Micro Smart Protection Network (SPN) for file scanning.
 
+![architecture](amaas_architecture.png)
+
 The SDK is available in the following programming languages:
 - Python
 - Node.js/typescript
